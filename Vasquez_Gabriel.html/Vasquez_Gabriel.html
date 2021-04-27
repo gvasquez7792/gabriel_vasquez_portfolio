@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Assignment</title>
+</head>
+<body>
+    <style>
+        body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+        }
+
+        .dark-mode {
+        background-color: black;
+        color: white;
+        }
+    </style>
+    <head>
+        Gabe's Toggle Assignment
+    </head>
+    <main>
+        <p>
+            This assignment showed me how to use the toggle method as well as become familiar with other Javascript capabilities.
+        </p>
+        <br>
+        <button onclick="myFunction()" type="button" id="toggleButton">Dark Mode</button>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("toggleButton");
+                if (x.innerHTML === "Dark Mode") {
+                    x.innerHTML = "Day Mode";
+                } else {
+                    x.innerHTML = "Dark Mode";
+                }
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+                } 
+        </script>
+    </main>
+</body>
+</html>
