@@ -1,8 +1,0 @@
-Project Plan:
-
-Configure WPA/WPA2 Enterprise WiFi Network. 
-- Install vShphere v5 on to a HP server
-- create a Windows Server 2022 virtual machine
-- deploy a network policy server as a Remote Authentication Dial In Server
-
-Goal = implement a secure network
