@@ -1,4 +1,4 @@
-# Automation Prj: This project will allow you to connect to two virtual machines using SSH, generate a new SSH key pair for the first virtual machine, save the SSH key pair for the first virtual machine to a file, connect to the first virtual machine using SSH, upload the SSH public key for the first virtual machine to the second virtual machine, disconnect from the first virtual machine, connect to the second virtual machine using SSH, and run a script on the second virtual machine.
+# Network Automation Project 1: This project will allow you to connect to two virtual machines using SSH, generate a new SSH key pair for the first virtual machine, save the SSH key pair for the first virtual machine to a file, connect to the first virtual machine using SSH, upload the SSH public key for the first virtual machine to the second virtual machine, disconnect from the first virtual machine, connect to the second virtual machine using SSH, and run a script on the second virtual machine.
 
 import paramiko
 import OpenSSL
